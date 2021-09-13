@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
     R = peso / pow(altura,2);
 
-    if(R >= 20 || R < 25)
+    if(R >= 20 && R < 25)
         printf("Peso ideal");
     else    
         printf("Nao esta no peso ideal");
