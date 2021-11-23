@@ -9,9 +9,8 @@ higher = float(input("Type the higher limit: "))
 
 while(higher < lower):
     print("Invalid value")
-    a = float(input("Type a value higher than the lower limit: "))
+    higher = float(input("Type a value higher than the lower limit: "))
 
 while(lower <= higher):
-    result = number * higher
-    print(f'{number} X {higher} = {result}')
-    higher = higher - 1
+    print(f'{number} X {higher} = {number * higher}')
+    higher -=  1
