@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    float p1, p2, average;
+    float p1, p2;
     
     printf("Enter the P1 score: ");
     scanf("%f", &p1);
